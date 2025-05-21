@@ -30,7 +30,7 @@ func Test_triangleType(t *testing.T) {
 			name: "my test 2",
 			args: args{nums: []int{3, 3, 7}},
 			want: "none",
-		}
+		},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
